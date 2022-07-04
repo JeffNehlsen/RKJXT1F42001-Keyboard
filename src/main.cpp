@@ -48,7 +48,6 @@ void resetTimer() {
 }
 
 void handleEvent(AceButton *button, uint8_t eventType, uint8_t buttonState) {
-  // Print out a message for all events, for both buttons.
   Serial.print(F("handleEvent(): pin: "));
   Serial.print(button->getPin());
   Serial.print(F("; eventType: "));
@@ -150,6 +149,5 @@ void loop() {
     oldPosition = newPosition;
     Serial.print(" -- newPosition: ");
     Serial.println(newPosition);
-    // delay(10);
   }
 }
