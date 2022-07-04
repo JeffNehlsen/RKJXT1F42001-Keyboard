@@ -57,8 +57,6 @@ void handleEvent(AceButton *button, uint8_t eventType, uint8_t buttonState) {
 
   if (eventType == AceButton::kEventPressed) {
     switch (button->getPin()) {
-    case BTN_PUSH_PIN:
-      break;
     case BTN_A_PIN:
     case BTN_B_PIN:
     case BTN_C_PIN:
