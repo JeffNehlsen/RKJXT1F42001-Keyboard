@@ -1,5 +1,5 @@
 # RKJXT1F42001 Keyboard
-Experiment to get a RKJXT1F42001 working as a keyboard specifically to control the black boxes in iRacing.
+Experiment to get a [RKJXT1F42001](https://www.mouser.com/ProductDetail/Alps-Alpine/RKJXT1F42001?qs=6EGMNY9ZYDTsBzSTrhiL0w%3D%3D) working as a keyboard specifically to control the black boxes in iRacing.
 
 This is currently designed to work with an Arduino Leonardo.
 
